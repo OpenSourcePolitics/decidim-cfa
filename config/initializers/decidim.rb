@@ -6,8 +6,8 @@ Decidim.configure do |config|
   config.mailer_sender = "OSP Agora <ne-pas-repondre@opensourcepolitics.eu>"
 
   # Change these lines to set your preferred locales
-  config.default_locale = :fr
-  config.available_locales = [:en, :fr]
+  config.default_locale = :en
+  config.available_locales = [:en, :es]
 
   config.maximum_attachment_height_or_width = 6000
 
@@ -35,7 +35,7 @@ Decidim.configure do |config|
   # end
 
   # Currency unit
-  # config.currency_unit = "€"
+  config.currency_unit = "$"
 
   # The number of reports which an object can receive before hiding it
   # config.max_reports_before_hiding = 3

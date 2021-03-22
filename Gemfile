@@ -8,7 +8,7 @@ gem "decidim", git: "https://github.com/decidim/decidim.git", branch: "release/0
 # gem "decidim", path: "../decidim"
 # gem "decidim-map", path: "../decidim-map"
 
-# gem "decidim-conferences", git: "https://github.com/decidim/decidim.git", branch: "release/0.22-stable"
+gem "decidim-conferences", git: "https://github.com/decidim/decidim.git", branch: "release/0.22-stable"
 # gem "decidim-consultations", git: "https://github.com/decidim/decidim.git", branch: "release/0.22-stable"
 # gem "decidim-initiatives", git: "https://github.com/decidim/decidim.git", branch: "release/0.22-stable"
 
@@ -24,6 +24,8 @@ gem "decidim-navbar_links", git: "https://github.com/OpenSourcePolitics/decidim-
 # gem "decidim-navigation_maps", git: "https://github.com/Platoniq/decidim-module-navigation_maps"
 gem "decidim-term_customizer", git: "https://github.com/OpenSourcePolitics/decidim-module-term_customizer.git", branch: "0.dev"
 gem "decidim-cookies", git: "https://github.com/OpenSourcePolitics/decidim-module_cookies.git", branch: "release/0.22-stable"
+
+gem "decidim-polis", git: "https://github.com/OpenSourcePolitics/decidim-polis", branch: "0.22-stable"
 
 gem "bootsnap", "~> 1.3"
 
